@@ -2,29 +2,51 @@
 <html>
     <head>
         <link rel="stylesheet" href="styles.css">
+        <meta charset="utf-8">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Playwrite+CU:wght@100..400&display=swap" rel="stylesheet">
     </head>
     <body>
         
         <!-- HERO SECTION -->
-        <div>
-            <h1>Visit Playa</h1>
-            <h2>Feel the heat on your face and the sand on your feets in this town close to La Havana</h2>
+        <div id="hero">
+            <h1 class="hero-text" id="hero-title">Visit Miramar</h1>
+            <h2 class="hero-text" id="hero-subtitle">Feel the heat on your face and the sand on your feets<br>in this town close to La Havana</h2>
         </div>
         
         <!-- ACTIVITIES SECTION -->
-        <div>
-            <h3>Top three activities to do at Torshov</h3>
-            <img src="images/park.jpg">
-            <img src="images/theatre.jpg">
-            <img src="images/sports.jpg">
+        <div id="activities">
+            <h3 id="activities-title">Top three activities to do at Miramar</h3>
+            <div id="activities-wrapper">
+                <div class="background-image">
+                    <div id="images-city"></div>
+                    <h4>Discover the architecture</h4>
+                    <p>Enjoy the feeling of the old american shaped towns or lose yourself into the royal spanish buildings.</p>
+                </div>
+                <div class="background-image">
+                    <div id="images-music"></div>
+                    <h4>Feel the beat and dance to the rythm</h4>
+                    <p>Dance until the sun rise again, enjoy every beat of the local culture or just play along with the percussion.</p>
+                </div>
+                <div class="background-image">
+                    <div id="images-beach"></div>
+                    <h4>Dive deep into the water</h4>
+                    <p>From crystal like water to fast flowing rivers, dive, swim, sail. Every plan is as good as the beaches.</p>
+                </div>
+            </div>
         </div>
 
         <!-- GUIDE SECTION -->
-        <div>
-            <h3>Your guide</h3>
-            <p>"I have lived at Torshov for over 30 years, so I can show you all of its best parts and hidden secrets."</p>
-            <h4>Per Harald Borgen</h4>
-            <img src="images/per.jpg">
+        <div id="guide">
+            <div id="guide-wrapper">
+                <img src="images/profile-pic.jpg" id="card-image">
+                <div id="card-flex">
+                    <h3>Your guide</h3>
+                    <p class="italic">"I was born and rised here, at the other side of the sea. Come with me to unravel every little secret of this island"</p>
+                    <h4>Raul Saints</h4>
+                </div>
+            </div>
         </div>
     </body>
 </html>

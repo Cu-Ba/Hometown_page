@@ -13,6 +13,133 @@ body {
     text-align: center;
 }
 
+
 img {
     width: 100px;
+}
+
+#hero {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 800px;
+    font-family: "Playwrite CU", cursive;
+    background-image: url("images/capitolio.jpg");
+    background-size: cover; 
+    color: whitesmoke;
+    text-shadow: 0px 0px 2px black;
+}
+
+.hero-text {
+    margin: 40px 20px 0px;
+    border-radius: 5px;
+    padding: 3px 10px;
+}
+
+#hero-title {
+    border: 5px solid #1D3557;
+    background-color: #1D3557;
+}
+
+#hero-subtitle {
+    border: 5px solid #457B9D;
+    background-color: #457B9D;
+}
+
+/*Here end the Hero section and starts the Activities section*/
+
+#activities {
+    font-family: "Happie Monkey", sans-serif;
+    color: #457B9D;
+    text-shadow: 0px 0px 5px #A8DADC;
+    background: linear-gradient(#A8DADC, #F1FAEE);
+    padding: 20px;
+}
+
+#activities-title {
+    padding: 20px;
+}
+
+h4 {
+    margin: 20px auto 30px;
+}
+
+#activities-wrapper {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+
+}
+
+.background-image {
+    width: 200px;
+    margin: 20px 40px;
+}
+
+#images-city {
+    background-image: url("images/miramar.jpg");
+    border-radius: 50%;
+    height: 200px;
+    background-size: cover;
+}
+#images-music {
+    background-image: url("images/musica.jpg");
+    border-radius: 50%;
+    height: 200px;
+    background-size: cover;
+}
+#images-beach {
+    background-image: url("images/playa.jpg");
+    border-radius: 50%;
+    height: 200px;
+    background-size: cover;
+}
+
+#images-city:hover {
+    background-image: url("images/casa-vieja.jpg");
+}
+#images-music:hover {
+    background-image: url("images/tango.jpg");
+}
+#images-beach:hover {
+    background-image: url("images/playa-cocos.jpg");
+}
+
+/*Guide section starts right here*/
+
+#guide {
+    background: #F1FAEE;
+    padding: 50px;
+    font-family: "Happie Monkey", sans-serif;
+    color: #ffffff;
+    text-shadow: 0px 0px 0px black;
+}
+
+#guide-wrapper {
+    display: flex;
+    background: #E63946;
+    border-bottom: 10px solid #4f151a;
+    border-radius: 10px;
+    width: 800px;
+    margin: 0px auto;
+    padding: 80px auto;
+
+}
+
+#card-image {
+    width: 350px;
+    padding: 30px 20px;
+    border-radius: 10px;
+}
+
+#card-flex {
+    padding: 30px 20px;
+    align-content: center;
+    justify-content: center;
+}
+
+.italic {
+    font-style: italic;
 }
